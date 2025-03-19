@@ -7,7 +7,7 @@ A modern data warehouse with SQL Server, including ETL processes, data modelling
 ---
 
 ## Data Architecture ✏️
-The data architecture for this project follows the **Medallion Architecture** (Multi-hop Architecture), which consists of the **bronze**, **silver**, and **gold** layers. This type of structure involves making incremental improvements to the data quality as it flows through each layer of the architecture.
+The data architecture for this project follows the **Medallion Architecture** (Multi-hop Architecture), which consists of the **bronze**, **silver**, and **gold** layers. This type of structure involves making incremental improvements to the data quality as it flows through each layer of the architecture. The setup for this project is shown below:
 ![Data Architecture](documents/data_architecture.png)
 
 **Bronze Layer:** 🥉
