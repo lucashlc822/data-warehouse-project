@@ -59,6 +59,8 @@ The diagram above shows all the relationships discovered between the data tables
 ## Data Model
 ![Data Mart Diagram](documents/data_model.png)
 
+As shown from the Star Schema Model, the data is separated into two dimension groups (customers and products tables) and one fact group (sales table). A **surrogate key** is used for each of the dimension tables. These tables have a **one-to-many relationship** with the master fact table (gold.fact_sales).
+
 ## 🔧 Important Links & Tools 
 
 - **[Dataset](/datasets/):** Access to the project files (CSV format).
@@ -94,5 +96,20 @@ data-warehouse-project/
 ├── LICENSE                             # License information for the repository
 └── .gitignore                          # Files and directories to be ignored by Git
 ```
+
+---
+
+## 🛡️ License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
+
+---
+
+## 🌟 About Me
+
+Hi there! I'm **Lucas Chung**. I’m an engineer on a mission to work in the world of data analytics. If you found this project interesting, feel free to take a look at my other work from my portfolio here on **[GitHub](https://github.com/lucashlc822)**.
+
+Let's stay in touch! Feel free to connect with me on **[LinkedIn](https://www.linkedin.com/in/lucashlc/)**.
+
 
 
