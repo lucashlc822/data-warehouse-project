@@ -16,7 +16,10 @@ A modern data warehouse with SQL Server, including ETL processes, data modelling
 4. [Data Flow](#data-flow)
 5. [Data Integration](#data-integration)
 6. [Data Model](#data-model)
-7. [Important Links & Tools]() 
+7. [Important Links and Tools](#important-links-and-tools)
+8. [Repository Structure](#repository-structure)
+9. [License](#license)
+10. [About Me](#about-me)
 
 ---
 
@@ -29,7 +32,7 @@ A modern data warehouse with SQL Server, including ETL processes, data modelling
 
 ---
 
-## 🚀 Project Requirements
+## Project Requirements
 
 #### Objective
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
@@ -43,7 +46,7 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
 ---
 
-## ✏️ Data Architecture 
+## Data Architecture 
 The data architecture for this project follows the **Medallion Architecture** (Multi-hop Architecture), which consists of the **bronze**, **silver**, and **gold** layers. This type of structure involves making incremental improvements to the data quality as it flows through each layer of the architecture. The setup for this project is shown below:
 ![Data Architecture](documents/data_architecture.png)
 
@@ -75,18 +78,18 @@ The diagram above shows all the relationships discovered between the data tables
 
 As shown from the Star Schema Model, the data is separated into two dimension groups (customers and products tables) and one fact group (sales table). A **surrogate key** is used for each of the dimension tables. These tables have a **one-to-many relationship** with the master fact table (gold.fact_sales).
 
-## 🔧 Important Links & Tools 
+## Important Links and Tools 
 
 - **[Dataset](/datasets/):** Access to the project files (CSV format).
 - **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Server to host the SQL database.
 - **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16):** GUI used for managing and interacting with the database.
 - **[GitHub](https://github.com/):** Storage for all files, queries, and related project documents.
 - **[Draw.io](https://www.drawio.com/):** Designing data architecture, flow/integration diagrams, and other visuals.
-- **[Notion Page](https://www.notion.so/Data-Warehousing-Project-1a247ae651ed804cae3fcc4d00a67878?pvs=4):** Project Planning and Management Tool.
+- **[Notion Page](https://www.notion.com/):** Project Planning and Management Tool. Click **[here](https://www.notion.so/Data-Warehousing-Project-1a247ae651ed804cae3fcc4d00a67878?pvs=4)** to access the Project Plan.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 ```
 data-warehouse-project/
 │
@@ -113,13 +116,13 @@ data-warehouse-project/
 
 ---
 
-## 🛡️ License
+## License
 
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
 
 ---
 
-## 🌟 About Me
+## About Me
 
 Hi there! I'm **Lucas Chung**. I’m an engineer on a mission to work in the world of data analytics. If you found this project interesting, feel free to take a look at my other work from my portfolio here on **[GitHub](https://github.com/lucashlc822)**.
 
