@@ -76,7 +76,7 @@ The diagram above shows all the relationships discovered between the data tables
 ## Data Model
 ![Data Mart Diagram](documents/data_model.png)
 
-As shown from the Star Schema Model, the data is separated into two dimension groups (customers and products tables) and one fact group (sales table). A **surrogate key** is used for each of the dimension tables. These tables have a **one-to-many relationship** with the master fact table (gold.fact_sales).
+As shown from the **Star Schema Model**, the data is separated into two dimension groups (customers and products tables) and one fact group (sales table). A **surrogate key** is used for each of the dimension tables. These tables have a **one-to-many relationship** with the master fact table (gold.fact_sales).
 
 ## Important Links and Tools 
 
@@ -110,8 +110,7 @@ data-warehouse-project/
 ├── tests/                              # Test scripts and quality files
 │
 ├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information for the repository
-└── .gitignore                          # Files and directories to be ignored by Git
+└── LICENSE                             # License information for the repository
 ```
 
 ---
