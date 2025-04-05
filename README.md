@@ -6,7 +6,21 @@ A modern data warehouse with SQL Server, including ETL processes, data modelling
 
 --- 
 
-##  📕 Project Overview
+## **Table of Contents**
+
+1. [Project Overview](#project-overview)
+2. [Project Requirements](#project-requirements)
+   - [Objective](#objective)
+   - [Specfications](#specifications)
+3. [Data Architecure](#data-architecture)
+4. [Data Flow](#data-flow)
+5. [Data Integration](#data-integration)
+6. [Data Model](#data-model)
+7. [Important Links & Tools]() 
+
+---
+
+## Project Overview
 
 1. **Data Architecture** - Designing a data warehouse using the **Medallion Architecture** (Bronze, Silver, and Gold Layers).
 2. **ETL Pipelines** - Extracting, Transforming, and Loading structured data into the Warehouse.
