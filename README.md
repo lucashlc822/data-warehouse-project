@@ -12,7 +12,7 @@ A modern data warehouse with SQL Server, including ETL processes, data modelling
 2. [Project Requirements](#project-requirements)
    - [Objective](#objective)
    - [Specfications](#specifications)
-3. [Data Architecure](#data-architecture)
+3. [Data Architecture](#data-architecture)
 4. [Data Flow](#data-flow)
 5. [Data Integration](#data-integration)
 6. [Data Model](#data-model)
